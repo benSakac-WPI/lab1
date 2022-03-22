@@ -1,0 +1,20 @@
+header {
+    font-family: Futura, Trebuchet MS;
+    font-weight: bold condensed;
+    color: #AC2B37; 
+    font-size: 25px;
+   }
+
+h1 {
+    font-family: Futura, Trebuchet MS;
+    font-weight: bold condensed;
+    color: #AC2B37; 
+    font-size: 20px;
+}
+
+body {
+    font-family: Futura, Trebuchet MS;
+    font-weight: thin;
+    color: #000;
+    font-size: 16px;
+}
