@@ -3,13 +3,20 @@ header {
     font-weight: bold condensed;
     color: #AC2B37; 
     font-size: 25px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
    }
 
 h1 {
+    display: block;
     font-family: Futura, Trebuchet MS;
     font-weight: bold condensed;
     color: #AC2B37; 
     font-size: 20px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -17,4 +24,54 @@ body {
     font-weight: thin;
     color: #000;
     font-size: 16px;
+}
+
+#content {
+    padding:3px;
+}
+
+p {
+padding: 3px;
+text-align: center;
+}
+
+#WPI{
+    /*center the image*/
+    display: block; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;}
+
+#main_nav ul { padding: 0; margin: 0; }
+
+#main_nav li  {
+  list-style-type: none; /* remove bullet points */ 
+}
+
+#main_nav li a {
+   display: block;
+   text-decoration: none; /* remove underline */
+   border-radius: 10px;  /* rounded corners */
+   margin: 6px;
+   padding: 9px;
+   color: #222;
+   font-weight: bold;
+
+   /* nice gradient shade on the buttons */
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+
+   border: 1px solid #666; /* dark outline */
+}
+
+nav li:active {
+    background-color: #ccc;
+    background-image: none;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+  }
+
+footer {
+    font-size: 12px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
 }
